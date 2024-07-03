@@ -37,14 +37,15 @@ To configure your application for testing with Appium, follow these steps:
      ```javascript
      "appium:deviceName": "your_device_name" // emulator-5554 is default is you're using Android SDK
      ```
-   - **Application Path**: By default there is couple APK files in app folder located in root. You can also paste yout APK files in this directory. To update file path follow next steps which are:
+   - **Application Path**: Follow next steps to correctly configure APK:
 
-   1. Navigate to the `config` folder and open the `index.js` file.
-   2. Locate the `appPath` variable and update its value to the path of your APK file. For example:
+   1. Drag and drop ANY app.APK file to app folder located in root of the application.
+   2. Navigate to the `config` folder and open the `index.js` file.
+   3. Locate the `appPath` variable and update its value to the path of your APK file. For example:
       ```javascript
       const ANDROID_APK = path.resolve() + "/app/your_app.apk";
       ```
-   3. Save the changes to the `index.js` file.
+   4. Save the changes to the `index.js` file.
 
 4. **Adjust `wdOpts` Configuration**:
 
@@ -85,7 +86,7 @@ To run your Appium tests, follow these steps carefully:
    npm run test
    ```
 
-4. **Results**: After test in your terminal you should receive loggerInfo with all result, and how app behave with the same test with intenet connection and without. In a case app beahve different you receive all infomation in your terminal.
+4. **Results**: After test in your terminal you should receive log with all result. It will contain AI analysis, on how app behave when it launched without inernet, and also what happens when interenet connection in enabled.
 
 ## Important Info
 

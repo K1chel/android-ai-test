@@ -1,7 +1,6 @@
 import path from "path";
 
-const ANDROID_APK =
-  path.resolve() + "/app/The Survival Hunter Games 2_1.189_APKPure.apk";
+const ANDROID_APK = path.resolve() + "/app/..."; // TODO: You should change to your apk path
 
 export const capabilities = {
   platformName: "Android",
