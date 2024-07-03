@@ -1,0 +1,19 @@
+{
+  "name": "android-ai-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node ./tests/behavior.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "child_process": "^1.0.2",
+    "dotenv": "^16.4.5",
+    "webdriverio": "^8.39.0"
+  }
+}
