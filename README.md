@@ -17,7 +17,7 @@ To install the app and all necessary packages for this project, follow these ste
 2. **Clone the repository**: Replace `<your_path>` with the directory where you want to clone the repository. If you want to clone it into the current directory, you can use `.` as the path.
 
    ```bash
-   git clone https://github.com/K1chel/appium-test-behavior-app.git <your_path>
+   git clone https://github.com/K1chel/android-ai-test.git <your_path>
    ```
 
 3. cd `<your_path>`
